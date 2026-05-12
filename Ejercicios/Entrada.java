@@ -1,20 +1,22 @@
+package Ejercicios;
+
 import java.util.Scanner;
 
 public class Entrada {
     public static final Scanner sc = new Scanner(System.in);
 
-    public static int leerEntero(String mensaje) {
-        System.out.print(mensaje);
+    public static int leerEntero() {
+        System.out.print("");
         return sc.nextInt();
     }
 
-    public static double leerDecimal(String mensaje) {
-        System.out.print(mensaje);
+    public static double leerDecimal() {
+        System.out.print("");
         return sc.nextDouble();
     }
 
-    public static String leerTexto(String mensaje) {
-        System.out.print(mensaje);
+    public static String leerTexto() {
+        System.out.print("");
         return sc.nextLine();
     }
 }

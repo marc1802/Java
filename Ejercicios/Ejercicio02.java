@@ -9,9 +9,9 @@ public class Ejercicio02 {
 
 
         System.out.println("Introduce un primer numero:");
-         num1 = Entrada.sc.nextInt();
+        num1 = Entrada.leerEntero();
          System.out.println("Introduce un segundo numero");
-         num2 = Entrada.sc.nextInt();
+        num2 = Entrada.leerEntero();
 
          int suma= num1+num2;
          System.out.println("La Suma de los dos numeros es " +suma);
